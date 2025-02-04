@@ -1,0 +1,16 @@
+<div class="page">
+    <div class="box1">
+        <div id="txtfeild">
+            <input type="text" [(ngModel)]="text" placeholder="Enter text or phare...">
+            <button (click)="onSumbit()">Submit</button>
+        </div>
+        <div id="fRfeild">
+            <input type="text" placeholder="Enter text to Find.." [(ngModel)]="findText"/>
+            <input type="text" placeholder="Enter text to Replace" [(ngModel)]="replaceText"/>
+            <button (click)="onApply()">Click to Apply</button>
+        </div>
+    </div>
+    <div class="box2">
+    <p  *ngIf="showText"> {{newText}}</p>
+    </div> 
+    </div>

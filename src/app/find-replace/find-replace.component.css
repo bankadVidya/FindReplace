@@ -1,0 +1,73 @@
+.page{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.box1{
+    position: absolute;
+    top: 50px;
+    width: 1200px;
+    height: 100px;
+    background-color: #416f98;
+    display: flex;
+    gap: 50px; 
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+}
+.box2{
+    position: absolute;
+    top: 150px;
+    width: 1160px;
+    height: 200px;
+    background-color: #416f98;
+    display: flex;
+    gap: 50px; 
+    padding: 20px;
+    border-radius:0px 0px 5px 5px;
+}
+#txtfeild{
+    padding: 20px;
+    display: flex;
+    gap:5px
+}
+#txtfeild input{
+    width: 500px;
+    height: 39px;
+    border-radius: 6px;
+    border:none;
+
+}
+#fRfeild{
+    padding: 20px;
+    display: flex;
+    gap:10px;
+    height: 20px;
+    align-items: center;
+}
+#fRfeild input{
+    width: 170px;
+    height: 39px;
+    border-radius: 6px;
+    border:none;
+}
+.box2 p {
+    word-wrap: break-word; /* Ensures long words break */
+    white-space: pre-wrap; /* Preserves spaces & line breaks */
+    overflow-wrap: break-word; /* Allows breaking inside words */
+    width: 100%; /* Ensures text doesn't overflow */
+}
+button{
+    background-color: #21425e;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: #0a1a28;
+}
